@@ -1,0 +1,23 @@
+{
+    "name": "mutator08/yii2-assets-awesome",
+    "description": "Font Awesome assets for yii2",
+    "version": "4.0.0",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","awesome","assets"," yii2awesome"," font-awesome"],
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "mutator08",
+            "email": "mutator08@mail.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/font-awesome": "*",
+    },
+    "autoload": {
+        "psr-4": {
+            "mutator08\\assets\\": ""
+        }
+    }
+}
